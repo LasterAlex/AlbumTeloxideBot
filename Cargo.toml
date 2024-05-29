@@ -1,0 +1,11 @@
+[package]
+name = "album_teloxide_bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+teloxide = { version = "0.12", features = ["macros", "redis-storage", "bincode-serializer", "sqlite-storage"]}
+dotenvy = "0.15.7"
+tokio = { version =  "1.8", features = ["rt-multi-thread", "macros"] }
+log = "0.4"
+pretty_env_logger = "0.4"
