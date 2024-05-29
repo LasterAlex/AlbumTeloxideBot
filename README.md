@@ -1,4 +1,4 @@
-# An example of how to handle Albums in teloxide 1.12
+# An example of how to handle Albums in teloxide 0.12
 
 All the source code is in ./src
 
